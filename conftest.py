@@ -7,6 +7,7 @@ from lib.Utils import get_spark_session
 #    return get_spark_session("LOCAL")
 
 
+## This is the fixture to create spark session : feature1
 @pytest.fixture
 def spark():
     "creates spark session"
